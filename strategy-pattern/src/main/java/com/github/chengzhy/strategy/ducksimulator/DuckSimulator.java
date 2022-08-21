@@ -1,6 +1,6 @@
 package com.github.chengzhy.strategy.ducksimulator;
 
-import com.github.chengzhy.strategy.ducksimulator.behavior.FlyNoWay;
+import com.github.chengzhy.strategy.ducksimulator.behavior.FlyRocketPowered;
 import com.github.chengzhy.strategy.ducksimulator.behavior.MuteQuack;
 import com.github.chengzhy.strategy.ducksimulator.duck.Duck;
 import com.github.chengzhy.strategy.ducksimulator.duck.MallardDuck;
@@ -18,7 +18,7 @@ public class DuckSimulator {
         mallard.display();
         mallard.performFly();
         mallard.performQuack();
-        mallard.setFlyBehavior(new FlyNoWay());
+        mallard.setFlyBehavior(new FlyRocketPowered());
         mallard.performFly();
         mallard.setQuackBehavior(new MuteQuack());
         mallard.performQuack();
