@@ -22,7 +22,7 @@
 
 Joe上班的公司做了一套相当成功的模拟鸭子游戏：SimUDuck。游戏中会出现各种鸭子，一边游泳戏水，一边呱呱叫。此系统的内部设计使用了标准的OO技术，设计了一个鸭子超类，并让各种鸭子继承此超类。
 
-![鸭子模拟器初版](.\assets\SimUDuck.drawio.png)
+![鸭子模拟器初版](./assets/SimUDuck.drawio.png)
 
 #### 新需求
 
@@ -45,4 +45,4 @@ Joe上班的公司做了一套相当成功的模拟鸭子游戏：SimUDuck。游
 
 最终设计类图如下：
 
-![鸭子模拟器解决方案](.\assets\SimUDuck-Solution.drawio.png)
+![鸭子模拟器解决方案](./assets/SimUDuck-Solution.drawio.png)
