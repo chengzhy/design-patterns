@@ -12,6 +12,7 @@
     <!-- submodule management -->
     <modules>
         <module>strategy-pattern</module>
+        <module>observer-pattern</module>
     </modules>
 
     <properties>
